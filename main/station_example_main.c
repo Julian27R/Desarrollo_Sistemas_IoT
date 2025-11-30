@@ -92,9 +92,9 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 
 static void mqtt_app_start(void) {
     esp_mqtt_client_config_t mqtt_cfg = {
-        .broker.address.uri = "mqtt://8.8.8.8:1883",
+        .broker.address.uri = "mqtt://3.15.164.9:1883",
         .credentials.username = "esp32",
-        .credentials.authentication.password = "12345678",
+        .credentials.authentication.password = "esp32",
     };
     mqtt_client = esp_mqtt_client_init(&mqtt_cfg);
     esp_mqtt_client_register_event(mqtt_client, ESP_EVENT_ANY_ID, mqtt_event_handler, NULL);
@@ -106,8 +106,8 @@ static void mqtt_app_start(void) {
    If you'd rather not, just change the below entries to strings with
    the config you want - ie #define EXAMPLE_WIFI_SSID "mywifissid"
 */
-#define EXAMPLE_ESP_WIFI_SSID      "pepito"
-#define EXAMPLE_ESP_WIFI_PASS      "12345678"
+#define EXAMPLE_ESP_WIFI_SSID      "Hermanitos"
+#define EXAMPLE_ESP_WIFI_PASS      "1006768457"
 #define EXAMPLE_ESP_MAXIMUM_RETRY  CONFIG_ESP_MAXIMUM_RETRY
 
 #if CONFIG_ESP_STATION_EXAMPLE_WPA3_SAE_PWE_HUNT_AND_PECK
