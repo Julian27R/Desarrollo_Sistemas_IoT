@@ -19,11 +19,11 @@ Esta es la guía para realizar la demo de un sistema IoT básico donde un ESP32-
 
 ##Componentes de la Demo
 
--**ESP32-C6-DevKitC-1 v1.2** con LED RGB WS2812 integrado
--**Servidor AWS EC2** con Ubuntu
--**Broker MQTT Mosquitto** con soporte WebSocket
--**Servidor Web Apache**
--**Página Web** con visualización en tiempo real
+- **ESP32-C6-DevKitC-1 v1.2** con LED RGB WS2812 integrado
+- **Servidor AWS EC2** con Ubuntu
+- **Broker MQTT Mosquitto** con soporte WebSocket
+- **Servidor Web Apache**
+- **Página Web** con visualización en tiempo real
 
 ## Arquitectura de la Demo
 
