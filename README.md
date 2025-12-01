@@ -3,6 +3,7 @@ Repositorio de la materia Desarrollo de Sistemas IoT, Julian Felipe Gutierrez Ra
 
 # Proyecto IoT: ESP32 LED RGB con MQTT y Servidor Web
 **Autores:** Edward Fabian Goyeneche Velandia / Juan Sebastian Giraldo Duque
+
 **Montado por:** Julian Felipe Gutierrez Ramirez
 
 **Nombre de la Práctica:** Proyecto IoT: ESP32 LED RGB con MQTT y Servidor Web
